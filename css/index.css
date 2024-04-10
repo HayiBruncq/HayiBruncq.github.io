@@ -5,6 +5,8 @@
 
 body{
     background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
 }
 
   .mySlides { 
@@ -22,9 +24,10 @@ body{
 }
 
  .conteiner {
+  display: flex;
+  flex-wrap: wrap;
   width: 1000px;
-  height: 1000px;
-  /* background-color: #ff0000;  */
+  height: 500px;
   margin: auto;
   background-size: cover;
  }
@@ -34,13 +37,18 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
     border-radius: 8px;  
-    background-size: cover;
-    display: inline-block;
+    /* background-size: cover; */
+    /* display: inline-block; */
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     width: 300px;
-    height: 90px;  
+    height: 90px; 
+    font-size: 25px; 
+    text-align: center;
+    color: black; 
+    text-decoration: none;
+    display: inline-block;
  }
 
  .volunteer,

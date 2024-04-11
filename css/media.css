@@ -66,6 +66,69 @@
 
 }
 
+@media screen and  (max-width: 414px)  /* IPHONE XR */
+{
+.mySlides{
+        height: 250px;
+     }
+
+.nav{
+      height: 50px;
+   }
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.beta{
+    width: 25px;
+    height: 50px;
+   }
+
+.content{
+    margin: 5px;
+    padding: 2px;
+    width: 190px;
+    height: 60px; 
+    font-size: 18px; 
+}  
+
+.volunteer,
+.friends,
+.business,
+.we,
+.programs,
+.grants,
+.markmedia,
+.news,
+.gametime {
+   border-radius: 50%;
+   background-size: cover;
+   float: left;
+   width: 58px;
+   height: 58px;
+}
+
+.footer{
+    height: 50px;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.youtube{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+}
+
 @media screen and  (max-width: 390px)  /* IPHONE 12 PRO*/
 {
 .mySlides{
@@ -129,7 +192,6 @@
 
 }
 
-
 @media screen and  (max-width: 375px)   /* IPHONE SE */
 {
 .mySlides{
@@ -153,6 +215,69 @@
 
 .content{
     margin: 9px;
+    padding: 2px;
+    width: 160px;
+    height: 45px; 
+    font-size: 12px; 
+}  
+
+.volunteer,
+.friends,
+.business,
+.we,
+.programs,
+.grants,
+.markmedia,
+.news,
+.gametime {
+ border-radius: 50%;
+ background-size: cover;
+ float: left;
+ width: 43px;
+ height: 43px;
+}
+
+.footer{
+    height: 40px;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+.youtube{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+}
+
+@media screen and  (max-width: 375px)   /* Galaxsy S8 */
+{
+.mySlides{
+        height: 200px;
+     }
+
+.nav{
+      height: 40px;
+   }
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+.beta{
+    width: 25px;
+    height: 40px;
+   }
+
+.content{
+    margin: 7px;
     padding: 2px;
     width: 160px;
     height: 45px; 

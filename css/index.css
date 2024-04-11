@@ -36,8 +36,12 @@
     color: black; 
     text-decoration: none;
     display: inline-block;
-
  }
+
+ .content:hover{
+  box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
+ }
+
  .volunteer,
  .friends,
  .business,

@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-@media screen and  (max-width: 430px)
+@media screen and  (max-width: 430px)  /* IPHONE 14 PRO MAX */
 {
 .mySlides{
         height: 250px;
@@ -50,7 +50,7 @@
 
 }
 
-@media screen and  (max-width: 390px)
+@media screen and  (max-width: 390px)  /* IPHONE 12 PRO*/
 {
 .mySlides{
         height: 220px;
@@ -98,7 +98,7 @@
 }
 
 
-@media screen and  (max-width: 375px)
+@media screen and  (max-width: 375px)   /* IPHONE SE */
 {
 .mySlides{
         height: 200px;

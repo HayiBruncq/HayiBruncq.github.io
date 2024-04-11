@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-  background-color: #C2EBFD;
+  background-color: #c2ebfd;
 }
 .mySlides{
     width: 100%;
@@ -11,16 +11,28 @@ body{
     background-size: cover;
  }
 
- .A1,
- .A2,
- .A3{
-    /* background-color: rgb(255, 0, 0); */
+.A3{
+    background-color: rgba(255, 0, 0, 0);
     width: 100%;
     height: 400px;
     margin-top: 5px;
-    background-image: url('../img/bacgraund.jpg');
-    background-size: cover;
  }
+
+.A2{
+  background-image: url('../img/bacgraund.jpg');
+  background-size: cover; 
+  background-attachment: fixed;	
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+}
+
+.A1{
+  background-color:  #c2ebfd;
+  width: 100%;
+  height: 4px;
+  margin-top: 5px;
+}
 
  .content
  {

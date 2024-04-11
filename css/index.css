@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+  background-color: #C2EBFD;
+}
 .mySlides{
     width: 100%;
     height: 500px;
@@ -12,10 +14,12 @@
  .A1,
  .A2,
  .A3{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 0, 0); */
     width: 100%;
-    height: 600px;
+    height: 400px;
     margin-top: 5px;
+    background-image: url('../img/bacgraund.jpg');
+    background-size: cover;
  }
 
  .content
@@ -36,6 +40,11 @@
     color: black; 
     text-decoration: none;
     display: inline-block;
+    background: rgba( 0, 0, 0, 0 ); /* գույն ալֆա կանալով աշխատել*/
+    box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37); /* ստվերի համար */
+    backdrop-filter: blur( 3px );          /*բլուրի չափը 0,1-ից 20 */
+    -webkit-backdrop-filter: blur( 3px );  /*փոխել վերևինի հետ միասին */
+   position: relative;
  }
 
  .content:hover{
@@ -75,14 +84,18 @@
   background-image: url('../svg/volunteer.svg');
   background-color: Tomato;
 }
+
 .friends{
+  float: left;
   background-image: url('../svg/friends.svg');
   background-color: Orange;
 }
+
 .business{
   background-image: url('../svg/business.svg');
   background-color: DodgerBlue;
 }
+
 .we{
   background-image: url('../svg/we.svg');
     background-color: MediumSeaGreen;
@@ -92,18 +105,22 @@
   background-image: url('../svg/programs.svg');
     background-color: SlateBlue;
 }
+
 .grants{
   background-image: url('../svg/grants.svg');
     background-color: Green;
 }
+
 .non{
   background-image: url('../svg/non.svg');
     background-color: #f44336;
 }
+
 .news{
     background-image: url('../svg/news.svg');
       background-color: Violet;
 }
+
 .gametime{
   background-image: url('../svg/gametime.svg');
     background-color: Grey;

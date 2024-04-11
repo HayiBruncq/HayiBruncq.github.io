@@ -14,7 +14,7 @@ body{
 .A3{
     background-color: rgba(255, 0, 0, 0);
     width: 100%;
-    height: 400px;
+    height: 200px;
     margin-top: 5px;
  }
 
@@ -23,7 +23,7 @@ body{
   background-size: cover; 
   background-attachment: fixed;	
   width: 100%;
-  height: 400px;
+  height: 600px;
   margin-top: 5px;
 }
 
@@ -69,7 +69,7 @@ body{
 .we,
 .programs,
 .grants,
-.non,
+.markmedia,
 .news,
 .gametime {
   border-radius: 50%;
@@ -123,8 +123,8 @@ body{
     background-color: Green;
 }
 
-.non{
-  background-image: url('../svg/non.svg');
+.markmedia{
+  background-image: url('../svg/markmedia.svg');
     background-color: #f44336;
 }
 

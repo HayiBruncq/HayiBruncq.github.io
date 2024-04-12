@@ -223,8 +223,6 @@
 
 .A2{
     background-size: 100%;
-    position: fixed;
-
   }
 
 .volunteer,
@@ -259,7 +257,13 @@
     height: 40px;
     margin-left: 5px;
    }
-
+Body.{ 
+  background-image: url('../img/bacgraund.jpg');
+  background-size: cover; 
+  background-attachment: fixed;	
+  width: 100%;
+  height: 600px;
+}
 }
 
 @media screen and  (max-width: 375px)   /* Galaxsy S8 */

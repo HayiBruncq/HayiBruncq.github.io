@@ -223,7 +223,7 @@
 
 .A2{
     background-size: 100%;
-   background-attachment: fixed;	/* nayel */
+ position: fixed;
   }
 
 .volunteer,

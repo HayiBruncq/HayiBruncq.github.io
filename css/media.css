@@ -180,6 +180,65 @@
 
 }
 
+@media screen and  (max-width: 395px)  /* Redmi 10 */
+{
+.mySlides{
+        height: 220px;
+     }
+
+.nav{
+      height: 50px;
+   }
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.beta{
+    width: 25px;
+    height: 50px;
+   }
+
+   .content{
+    margin: 5px;
+    width: 180px;
+    height: 55px; 
+    font-size: 16px; 
+}  
+
+.volunteer,
+.friends,
+.we,
+.programs,
+.grants,
+.markmedia,
+.news,
+.gametime {
+ width: 50px;
+ height: 50px;
+ padding: 2.5px;
+}
+
+.footer{
+    height: 50px;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.youtube{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+} 
+
 @media screen and  (max-width: 390px)  /* IPHONE 12 PRO*/
 {
 .mySlides{

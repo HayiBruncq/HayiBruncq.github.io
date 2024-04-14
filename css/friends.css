@@ -9,28 +9,27 @@ body{
  background-attachment: fixed;	
 }
 
-.F3{
-  background-color: rgba(255, 0, 0, 1);
-  width: 100%;
-  height: 600px;
-  margin-top: 5px;
-}
-
-.F2{
-background-color: red;
+.block{
+background-color:  #c2ebfd00;
 width: 100%;
-height: 600px;
-margin-top: 5px;
+height: 55px;
 }
 
-.F1{
-background-color:  #c2ebfd;
+.friends{
+background-color:  #c2ebfd00;
 width: 100%;
-height: 4px;
-margin-top: 5px;
+height: 5px;
 }
 
-.content
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9
 {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
@@ -41,8 +40,8 @@ margin-top: 5px;
   justify-content: first baseline;
   margin: 29px;
   /* padding: 10px; */
-  width: 350px;
-  height: 120px; 
+  width: 500px;
+  height: 200px; 
   font-size: 25px; 
   text-align: center;
   color: rgb(0, 0, 0); 
@@ -55,6 +54,31 @@ margin-top: 5px;
  position: relative;
 }
 
-.content:hover{
+.f1:hover,
+.f2:hover,
+.f3:hover,
+.f4:hover,
+.f5:hover,
+.f6:hover,
+.f7:hover,
+.f8:hover,
+.f9:hover{
 box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
+}
+
+.fb,
+.insta,
+.x{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  float: right;
+}
+
+.img1{
+  margin: 10px;
+  width: 180px;
+  height: 180px;
+  background-color: red;
+  float: left;
 }

@@ -3,8 +3,11 @@
     padding: 0;
 }
 body{
-  background-color: #c2ebfd;
+background-image: url('../img/bacgraund.jpg');
+ background-size: cover; 
+ background-attachment: fixed;	
 }
+
 .mySlides{
     width: 100%;
     height: 500px;
@@ -18,22 +21,6 @@ body{
     margin-top: 5px;
  }
 
-.A2{
-  background-image: url('../img/bacgraund.jpg');
-  background-size: cover; 
-  background-attachment: fixed;	
-  width: 100%;
-  height: 600px;
-  margin-top: 5px;
-}
-
-.A1{
-  background-color:  #c2ebfd;
-  width: 100%;
-  height: 4px;
-  margin-top: 5px;
-}
-
  .content
  {
     background-color: rgb(255, 255, 255);
@@ -43,8 +30,8 @@ body{
     display: flex;
     flex-wrap: row wrap;
     justify-content: first baseline;
-    margin: 29px;
-    /* padding: 10px; */
+    margin: 27px;
+
     width: 350px;
     height: 120px; 
     font-size: 25px; 
@@ -63,8 +50,8 @@ body{
   box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
  }
 
- .volunteer,
- .friends,
+.volunteer,
+.friends,
 .we,
 .programs,
 .grants,
@@ -74,8 +61,9 @@ body{
   border-radius: 50%;
   background-size: cover;
   float: left;
-  width: 100px;
-  height: 100px;
+  margin: 5px;
+  width: 110px;
+  height: 110px;
 
  }
 

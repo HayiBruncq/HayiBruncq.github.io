@@ -3,6 +3,65 @@
     padding: 0;
 }
 
+@media screen and  (max-width: 810px)  /* APPLE IPAD*/
+{
+.mySlides{
+        height: 250px;
+     }
+
+.nav{
+      height: 50px;
+   }
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.beta{
+    width: 25px;
+    height: 50px;
+   }
+
+.content{
+    margin: 8px;
+    width: 240px;
+    height: 80px; 
+    font-size: 19px; 
+}  
+
+.volunteer,
+.friends,
+.we,
+.programs,
+.grants,
+.markmedia,
+.news,
+.gametime {
+    padding: 2.5px;
+   width: 75px;
+   height: 75px;
+}
+
+.footer{
+    height: 50px;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+.youtube{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+   }
+
+}
+
 @media screen and  (max-width: 430px)  /* IPHONE 14 PRO MAX */
 {
 .mySlides{
@@ -142,12 +201,11 @@
     height: 50px;
    }
 
-.content{
-    margin: 9px;
-    padding: 2px;
+   .content{
+    margin: 7px;
     width: 170px;
-    height: 50px; 
-    font-size: 18px; 
+    height: 55px; 
+    font-size: 16px; 
 }  
 
 .volunteer,
@@ -158,8 +216,9 @@
 .markmedia,
 .news,
 .gametime {
- width: 48px;
- height: 48px;
+ width: 50px;
+ height: 50px;
+ padding: 2.5px;
 }
 
 .footer{
@@ -202,11 +261,10 @@
    }
 
 .content{
-    margin: 13px;
-    padding: 2px;
-    width: 160px;
-    height: 45px; 
-    font-size: 12px; 
+    margin: 7px;
+    width: 170px;
+    height: 55px; 
+    font-size: 16px; 
 }  
 
 .volunteer,
@@ -217,8 +275,9 @@
 .markmedia,
 .news,
 .gametime {
- width: 43px;
- height: 43px;
+ width: 50px;
+ height: 50px;
+ padding: 2.5px;
 }
 
 .footer{
@@ -239,7 +298,7 @@
 
 }
 
-@media screen and  (max-width: 375px)   /* Galaxsy S8 */
+@media screen and  (max-width: 375px)   /* IPHONE SE */
 {
 .mySlides{
         height: 200px;
@@ -261,10 +320,69 @@
    }
 
 .content{
-    margin: 7px;
+    margin: 5px;
     padding: 2px;
+    width: 170px;
+    height: 55px; 
+    font-size: 16px; 
+}  
+
+.volunteer,
+.friends,
+.we,
+.programs,
+.grants,
+.markmedia,
+.news,
+.gametime {
+ padding: 2.5px;
+ width: 50px;
+ height: 50px;
+}
+
+.footer{
+    height: 40px;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+.youtube{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+}
+
+@media screen and  (max-width: 360px)   /* Galaxsy S8 */
+{
+.mySlides{
+        height: 200px;
+     }
+
+.nav{
+      height: 40px;
+   }
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   }
+
+.beta{
+    width: 25px;
+    height: 40px;
+   }
+
+.content{
+    margin: 5px;
     width: 160px;
-    height: 45px; 
+    height: 55px; 
     font-size: 12px; 
 }  
 
@@ -276,8 +394,9 @@
 .markmedia,
 .news,
 .gametime {
- width: 43px;
- height: 43px;
+padding: 2px;
+ width: 50px;
+ height: 50px;
 }
 
 .footer{

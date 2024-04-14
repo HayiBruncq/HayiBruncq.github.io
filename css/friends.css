@@ -3,20 +3,58 @@
   padding: 0;
 }
 
-.clearfix {
-    border: 3px solid #4CAF50;
-    padding: 5px;
-    margin: 5px 0 5px 0;
-  }
+body{
+  background-image: url('../img/bacgraund.jpg');
+ background-size: cover; 
+ background-attachment: fixed;	
+}
 
-  .img1 {
-    float: left;
-    width: 75px; 
-    height: 75px;
-  }
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.F3{
+  background-color: rgba(255, 0, 0, 1);
+  width: 100%;
+  height: 600px;
+  margin-top: 5px;
+}
+
+.F2{
+background-color: red;
+width: 100%;
+height: 600px;
+margin-top: 5px;
+}
+
+.F1{
+background-color:  #c2ebfd;
+width: 100%;
+height: 4px;
+margin-top: 5px;
+}
+
+.content
+{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: first baseline;
+  margin: 29px;
+  /* padding: 10px; */
+  width: 350px;
+  height: 120px; 
+  font-size: 25px; 
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  display: inline-block;
+  background: rgba( 255, 255, 255, 0.4 ); /* գույն ալֆա կանալով աշխատել*/
+  box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37); /* ստվերի համար */
+  backdrop-filter: blur( 3px );          /*բլուրի չափը 0,1-ից 20 */
+  -webkit-backdrop-filter: blur( 3px );  /*փոխել վերևինի հետ միասին */
+ position: relative;
+}
+
+.content:hover{
+box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
+}

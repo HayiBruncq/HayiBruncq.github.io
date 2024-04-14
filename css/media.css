@@ -180,7 +180,7 @@
 
 } 
 
-@media screen and  (max-width: 375px)   /* IPHONE SE */
+@media screen and  (max-width: 384px)   /* Galaxsy S20 */
 {
 .mySlides{
         height: 200px;
@@ -202,16 +202,12 @@
    }
 
 .content{
-    margin: 9px;
+    margin: 13px;
     padding: 2px;
     width: 160px;
     height: 45px; 
     font-size: 12px; 
 }  
-
-.A2{
-    background-size: 100%;
-  }
 
 .volunteer,
 .friends,
@@ -223,7 +219,6 @@
 .gametime {
  width: 43px;
  height: 43px;
- z-index: 2;
 }
 
 .footer{
@@ -241,13 +236,7 @@
     height: 40px;
     margin-left: 5px;
    }
-Body.{ 
-  background-image: url('../img/bacgraund.jpg');
-  background-size: cover; 
-  background-attachment: fixed;	
-  width: 100%;
-  height: 600px;
-}
+
 }
 
 @media screen and  (max-width: 375px)   /* Galaxsy S8 */

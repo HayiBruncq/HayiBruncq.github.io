@@ -49,10 +49,10 @@ body{
     height: 90px; 
     font-size: 25px; 
     text-align: center;
-    color: black; 
+    color: rgb(0, 0, 0); 
     text-decoration: none;
     display: inline-block;
-    background: rgba( 0, 0, 0, 0 ); /* գույն ալֆա կանալով աշխատել*/
+    background: rgba( 255, 255, 255, 0.4 ); /* գույն ալֆա կանալով աշխատել*/
     box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37); /* ստվերի համար */
     backdrop-filter: blur( 3px );          /*բլուրի չափը 0,1-ից 20 */
     -webkit-backdrop-filter: blur( 3px );  /*փոխել վերևինի հետ միասին */
@@ -65,7 +65,6 @@ body{
 
  .volunteer,
  .friends,
- .business,
 .we,
 .programs,
 .grants,
@@ -81,7 +80,6 @@ body{
 
 .volunteer::after,
 .friends::after,
-.business::after,
 .we::after,
 .programs::after,
 .grants::after,
@@ -101,11 +99,6 @@ body{
   float: left;
   background-image: url('../svg/friends.svg');
   background-color: Orange;
-}
-
-.business{
-  background-image: url('../svg/business.svg');
-  background-color: DodgerBlue;
 }
 
 .we{
@@ -130,7 +123,7 @@ body{
 
 .news{
     background-image: url('../svg/news.svg');
-      background-color: Violet;
+      background-color: DodgerBlue;
 }
 
 .gametime{
@@ -138,3 +131,4 @@ body{
     background-color: Grey;
   /* box-shadow: 0px 0px 20px 7px rgba(255, 0, 0, 0.575); */
 }
+

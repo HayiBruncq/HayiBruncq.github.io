@@ -34,16 +34,12 @@
 
 .volunteer,
 .friends,
-.business,
 .we,
 .programs,
 .grants,
 .markmedia,
 .news,
 .gametime {
-   border-radius: 50%;
-   background-size: cover;
-   float: left;
    width: 58px;
    height: 58px;
 }
@@ -66,7 +62,7 @@
 
 }
 
-@media screen and  (max-width: 414px)  /* IPHONE XR */
+ @media screen and  (max-width: 414px)  /* IPHONE XR */
 {
 .mySlides{
         height: 250px;
@@ -97,16 +93,12 @@
 
 .volunteer,
 .friends,
-.business,
 .we,
 .programs,
 .grants,
 .markmedia,
 .news,
 .gametime {
-   border-radius: 50%;
-   background-size: cover;
-   float: left;
    width: 58px;
    height: 58px;
 }
@@ -160,16 +152,12 @@
 
 .volunteer,
 .friends,
-.business,
 .we,
 .programs,
 .grants,
 .markmedia,
 .news,
 .gametime {
- border-radius: 50%;
- background-size: cover;
- float: left;
  width: 48px;
  height: 48px;
 }
@@ -190,7 +178,7 @@
     margin-left: 5px;
    }
 
-}
+} 
 
 @media screen and  (max-width: 375px)   /* IPHONE SE */
 {
@@ -227,16 +215,12 @@
 
 .volunteer,
 .friends,
-.business,
 .we,
 .programs,
 .grants,
 .markmedia,
 .news,
 .gametime {
- border-radius: 50%;
- background-size: cover;
- float: left;
  width: 43px;
  height: 43px;
 }
@@ -290,16 +274,12 @@
 
 .volunteer,
 .friends,
-.business,
 .we,
 .programs,
 .grants,
 .markmedia,
 .news,
 .gametime {
- border-radius: 50%;
- background-size: cover;
- float: left;
  width: 43px;
  height: 43px;
 }

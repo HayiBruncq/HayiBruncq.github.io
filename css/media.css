@@ -398,6 +398,58 @@
  height: 47px;
 }
 
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9{
+    margin: 5px;
+    width: 360px;
+    height: 150px; 
+    font-size: 12px;
+}
+.img1,
+.img2{
+    margin: 5px;
+    width: 140px;
+    height: 140px; 
+}
+
+.f1txt{
+    width: 200px;
+    height: 120px;
+  }
+
+.fb
+{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 117px;
+    right: 125px;
+}
+
+.insta
+{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 117px;
+    right: 75px;
+}
+
+.x{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 117px;
+    right: 100px;
+}
+
 .footer{
     height: 40px;
 }

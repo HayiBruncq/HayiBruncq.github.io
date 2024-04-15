@@ -34,7 +34,7 @@ height: 5px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
   border-radius: 18px;
-  cursor: pointer;
+  /* cursor: pointer; */
   display: flex;
   flex-wrap: row wrap;
   justify-content: first baseline;
@@ -66,20 +66,70 @@ height: 5px;
 box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
 }
 
-.fb,
-.insta,
-.x{
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  float: right;
+.f1tx{
+  background-color: rgba(255, 255, 255, 0);
+  width: 290px;
+  height: 150px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.img1{
+.fb{
+  width: 20px;
+  height: 20px;
+  background-image: url('../svg/facebook1.svg');
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+  top: 160px;
+  right: 100px;
+  margin: 5px;
+}
+
+.insta{
+  width: 20px;
+  height: 20px;
+  background-image: url('../svg/instagram.svg');
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+  top: 160px;
+  right: 150px;
+  margin: 5px;
+}
+
+.x{
+  width: 20px;
+  height: 20px;
+  background-image: url('../svg/x.svg');
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+  top: 160px;
+  right: 200px;
+  margin: 5px;
+}
+
+.img1,
+.img2{
   border-radius: 18px;
   margin: 10px;
   width: 180px;
   height: 180px;
-  background-color: red;
+  background-color: rgb(109, 184, 253);
   float: left;
 }
+
+.fb:hover,
+.insta:hover,
+.x:hover{
+  width: 25px;
+  height: 25px;
+}
+
+.img2{
+  background-image: url('../img/IMG_1550.JPG');
+  background-size: cover;
+}
+

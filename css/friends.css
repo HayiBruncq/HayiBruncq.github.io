@@ -33,7 +33,7 @@ height: 5px;
 {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
-  border-radius: 18px;
+  border-radius: 24px;
   /* cursor: pointer; */
   display: flex;
   flex-wrap: row wrap;
@@ -113,8 +113,8 @@ box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
 
 .img1,
 .img2{
-  border-radius: 9px;
-  margin: 10px;
+  border-radius: 16px;
+  margin: 8px;
   width: 180px;
   height: 180px;
   background-color: rgb(109, 184, 253);

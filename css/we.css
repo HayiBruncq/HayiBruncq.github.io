@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url('../img/bacgraund.jpg');
+   background-size: cover; 
+   background-attachment: fixed;	
+  }
+  
+  .block{
+  background-color:  #c2ebfd00;
+  width: 100%;
+  height: 55px;
+  }
+
+  .we1{
+    margin-top: 50px;
+    background: rgba( 255, 255, 255, 0.4 ); /* գույն ալֆա կանալով աշխատել*/
+    box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37); /* ստվերի համար */
+    backdrop-filter: blur( 3px );          /*բլուրի չափը 0,1-ից 20 */
+    -webkit-backdrop-filter: blur( 3px );  /*փոխել վերևինի հետ միասին */
+  }

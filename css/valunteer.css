@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-image: url('../img/bacgraund.jpg');
+   background-size: cover; 
+   background-attachment: fixed;	
+  }
+  
+  .block{
+  background-color:  #c2ebfd00;
+  width: 100%;
+  height: 55px;
+  }
+  
+  .friends{
+  background-color:  #c2ebfd00;
+  width: 100%;
+  height: 5px;
+  }
+  
+  .f1,
+  .f2,
+  .f3,
+  .f4,
+  .f5,
+  .f6,
+  .f7,
+  .f8,
+  .f9
+  {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    /* cursor: pointer; */
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: first baseline;
+    margin: 29px;
+    /* padding: 10px; */
+    width: 500px;
+    height: 200px; 
+    font-size: 18px; 
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    display: inline-block;
+    background: rgba( 255, 255, 255, 0.4 ); /* գույն ալֆա կանալով աշխատել*/
+    box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37); /* ստվերի համար */
+    backdrop-filter: blur( 3px );          /*բլուրի չափը 0,1-ից 20 */
+    -webkit-backdrop-filter: blur( 3px );  /*փոխել վերևինի հետ միասին */
+   position: relative;
+  }
+  
+  .f1:hover,
+  .f2:hover,
+  .f3:hover,
+  .f4:hover,
+  .f5:hover,
+  .f6:hover,
+  .f7:hover,
+  .f8:hover,
+  .f9:hover{
+  box-shadow: 0px 0px 8px 8px rgba(20, 20, 20, 0.3);
+  }
+  
+  .f1txt{
+    background-color: rgba(255, 255, 255, 0);
+    width: 290px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .fb{
+    width: 20px;
+    height: 20px;
+    background-image: url('../svg/facebook1.svg');
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    margin: 5px;
+  }
+  
+  .insta{
+    width: 20px;
+    height: 20px;
+    background-image: url('../svg/instagram.svg');
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    margin: 5px;
+  }
+  
+  .x{
+    width: 20px;
+    height: 20px;
+    background-image: url('../svg/x.svg');
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+    right: 200px;
+    margin: 5px;
+  }
+  
+  .img1,
+  .img2{
+    border-radius: 16px;
+    margin: 8px;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(109, 184, 253);
+    float: left;
+  }
+  
+  .fb:hover,
+  .insta:hover,
+  .x:hover{
+    width: 25px;
+    height: 25px;
+  }
+  
+
+  
+  

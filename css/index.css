@@ -31,7 +31,6 @@ background-image: url('../img/bacgraund.jpg');
     flex-wrap: row wrap;
     justify-content: first baseline;
     margin: 27px;
-
     width: 350px;
     height: 120px; 
     font-size: 25px; 

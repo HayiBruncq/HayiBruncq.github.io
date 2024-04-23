@@ -3,6 +3,31 @@
     padding: 0;
 }
 
+.nav_block{
+ width: 75%;
+ height: 40px;
+ background-color: rgba(50, 118, 182, 0);
+ display: inline-block;
+}
+
+.donat{
+    width: 150px;
+    height: 40px;
+    background-color: #f44336;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 5px;
+    /* margin-left: 80%; */
+    background-image: url("../svg/donata.svg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    }
+ 
+.donat:hover{
+    background-color: red;
+}    
+
 .nav{
     background-color: black;
     width: 100%;

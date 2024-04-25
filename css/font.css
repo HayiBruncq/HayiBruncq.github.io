@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'YourFontName';
+    src: url('path/to/your/font.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/your/font.woff') format('woff'); /* Older Browsers */
+  }
+
+  body {
+    font-family: 'YourFontName', sans-serif; /* Fallback font */
+  }
+  
